@@ -2,7 +2,10 @@
 
 Provides core classes for generating SQL at runtime.
 
-Download using NuGet: [SQLGeneration](https://nuget.org/packages/SQLGeneration)
+Download using NuGet:
+Net framework 4.5 version [SQLGeneration](https://nuget.org/packages/SQLGeneration)
+
+Net standard version [SQLGeneration.NetCore](https://www.nuget.org/packages/SQLGeneration.NetCore)
 
 ## Recent Updates
 Please view the [Recent Updates Wiki](https://github.com/jehugaleahsa/SQLGeneration/wiki/Recent-Updates) to learn the latest news.
