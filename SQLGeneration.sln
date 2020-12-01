@@ -1,29 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLGeneration", "SQLGeneration\SQLGeneration.csproj", "{A57BC336-3100-415B-91A5-B779CC64EF91}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLGeneration", "SQLGeneration", "{B73C76EE-FE1E-42ED-8324-70FA2AF2D497}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLGeneration.Tests", "SQLGeneration.Tests\SQLGeneration.Tests.csproj", "{0B721A48-59F1-4D97-A321-5C1A56BC68A1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLGeneration.Tests", "SQLGeneration.Tests", "{3AB03729-FACB-484B-B54F-62CF3228E4FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLGeneration", "SQLGeneration\SQLGeneration.csproj", "{85B65540-B574-4EC9-9792-190B896DCC94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLGeneration.Tests", "SQLGeneration.Tests\SQLGeneration.Tests.csproj", "{ED143CB7-D0DD-4F68-8885-09DF44F49B9E}"
 EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = SQLGeneration.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A57BC336-3100-415B-91A5-B779CC64EF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A57BC336-3100-415B-91A5-B779CC64EF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A57BC336-3100-415B-91A5-B779CC64EF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A57BC336-3100-415B-91A5-B779CC64EF91}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0B721A48-59F1-4D97-A321-5C1A56BC68A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B721A48-59F1-4D97-A321-5C1A56BC68A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B721A48-59F1-4D97-A321-5C1A56BC68A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B721A48-59F1-4D97-A321-5C1A56BC68A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B65540-B574-4EC9-9792-190B896DCC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B65540-B574-4EC9-9792-190B896DCC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B65540-B574-4EC9-9792-190B896DCC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B65540-B574-4EC9-9792-190B896DCC94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED143CB7-D0DD-4F68-8885-09DF44F49B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED143CB7-D0DD-4F68-8885-09DF44F49B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED143CB7-D0DD-4F68-8885-09DF44F49B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED143CB7-D0DD-4F68-8885-09DF44F49B9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85B65540-B574-4EC9-9792-190B896DCC94} = {B73C76EE-FE1E-42ED-8324-70FA2AF2D497}
+		{ED143CB7-D0DD-4F68-8885-09DF44F49B9E} = {3AB03729-FACB-484B-B54F-62CF3228E4FA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1902B74D-873D-48A3-9C1A-D4C56D71B14C}
 	EndGlobalSection
 EndGlobal
